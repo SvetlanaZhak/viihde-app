@@ -2,7 +2,7 @@
 
 The application for cheking live programs on the Elisa Viihde service created with the use of React, Typescript, axios hooks, Material-UI and styled components.
 
-See ![viihde-app](https://afternoon-cove-96826.herokuapp.com/) in action (but give heroku a few seconds to boot the instance)!
+See [viihde-app](https://afternoon-cove-96826.herokuapp.com/) in action (but give heroku a few seconds to boot the instance)!
 
 ![viihde-app](src/image/App.png)
 

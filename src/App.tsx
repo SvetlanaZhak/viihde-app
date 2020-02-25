@@ -146,7 +146,7 @@ function App() {
         />
       </AppBar>
       <Typography align="center" variant="h5" style={{ padding: "30px" }}>
-        What is streaming now?
+        What's streaming now?
       </Typography>
       <ProgramsView>
         {searchedPrograms &&

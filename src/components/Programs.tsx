@@ -36,6 +36,7 @@ export function Programs(props: Props) {
         .filter((_, i) => i < 100)
         .map((program, idx) => (
           <Card
+            key={idx}
             style={{
               margin: "18px",
               justifyContent: "space-around",
@@ -58,7 +59,7 @@ export function Programs(props: Props) {
               style={{ height: "220px" }}
             />
             <CardContent>
-              <ProgramCard key={idx}>
+              <ProgramCard>
                 <h3 style={{ color: "white" }}>{program.name}</h3>
                 <div>
                   <div>
